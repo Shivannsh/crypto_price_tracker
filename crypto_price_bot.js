@@ -4,9 +4,6 @@ import 'dotenv/config';
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const CHAT_ID = process.env.CHAT_ID;
 
-console.log(TELEGRAM_BOT_TOKEN, CHAT_ID);
-console.log(CHAT_ID);
-
 const COINGECKO_URL =
   "https://api.coingecko.com/api/v3/simple/price?ids=ethereum,solana,bitcoin,litecoin,chainlink,pnp-exchange,zkverify,zencash&vs_currencies=usd";
 
