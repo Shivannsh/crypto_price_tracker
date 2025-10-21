@@ -12,7 +12,16 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^4.21.2",
     "node-fetch": "^3.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivannsh/crypto_price_tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shivannsh/crypto_price_tracker/issues"
+  },
+  "homepage": "https://github.com/Shivannsh/crypto_price_tracker#readme"
 }
