@@ -4,11 +4,9 @@ import 'dotenv/config';
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const CHAT_ID = process.env.CHAT_ID;
 
-const COINGECKO_URL =
-  "https://api.coingecko.com/api/v3/simple/price?ids=ethereum,solana,bitcoin,litecoin,chainlink,pnp-exchange,zkverify,zencash&vs_currencies=usd";
+const COINGECKO_URL =process.env.COINGECKO_URL;
+console.log(COINGECKO_URL);
 
-
-;
 async function getPrices() {
   const res = await fetch(COINGECKO_URL);
   if (!res.ok) throw new Error("Failed to fetch CoinGecko API");
